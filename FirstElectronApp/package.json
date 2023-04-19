@@ -1,0 +1,19 @@
+{
+  "devDependencies": {
+    "electron": "^24.0.0",
+    "electron-builder": "^23.6.0",
+    "nodemon": "^2.0.22"
+  },
+  "name": "firstelectronapp",
+  "version": "1.0.0",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron .",
+    "gk": "nodemon --exec electron .",
+    "build" :"electron-builder"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
